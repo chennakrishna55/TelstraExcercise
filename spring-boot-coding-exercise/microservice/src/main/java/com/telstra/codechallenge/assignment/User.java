@@ -8,6 +8,10 @@ public class User {
 	
 	
 
+	public User() {
+		super();
+	}
+
 	public User(int id, String login, String html_url) {
 		super();
 		this.id = id;
